@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="E:/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-fileupload-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="E:/lib/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/lib/javax.servlet.jsp.jstl.jar"/>
+	<classpathentry kind="lib" path="E:/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="E:/lib/jsf-impl.jar"/>
+	<classpathentry kind="lib" path="E:/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/lib/jstl-impl.jar"/>
+	<classpathentry kind="lib" path="E:/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="E:/lib/mysql-connector-java-5.1.21-bin.jar" sourcepath="C:/Users/Owner/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21-sources.jar"/>
+	<classpathentry kind="lib" path="E:/lib/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/lib/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/lib/jpush-client-3.2.7.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
