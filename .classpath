@@ -16,7 +16,7 @@
 	<classpathentry kind="lib" path="E:/lib/javax.servlet.jsp.jstl.jar"/>
 	<classpathentry kind="lib" path="E:/lib/jsf-api.jar"/>
 	<classpathentry kind="lib" path="E:/lib/jsf-impl.jar"/>
-	<classpathentry kind="lib" path="E:/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="E:/lib/json-lib-2.4-jdk15.jar" sourcepath="C:/Users/Owner/.m2/repository/com/hynnet/json-lib/2.4/json-lib-2.4-sources.jar"/>
 	<classpathentry kind="lib" path="E:/lib/jstl-impl.jar"/>
 	<classpathentry kind="lib" path="E:/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="E:/lib/mysql-connector-java-5.1.21-bin.jar" sourcepath="C:/Users/Owner/.m2/repository/mysql/mysql-connector-java/5.1.21/mysql-connector-java-5.1.21-sources.jar"/>

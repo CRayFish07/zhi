@@ -58,9 +58,22 @@ public class PersonControlServlet extends HttpServlet {
 		case 5:// 关注的板块下面的推荐
 			maps = new ModuleDao().tuijian(name);
 			break;
+		case 6:// 发表的文章
+			maps = dao.personWrite(name);
+			break;
 		}
-		JSONArray array = JSONArray.fromObject(maps);
-		out.print(array.toString());
+		if (type.equals("7")) {
+			String article = request.getParameter("article");
+			int len = dao.deleteArticle(article, name);
+			if (len == 1) {
+				out.print("success");
+			} else {
+				out.print("error");
+			}
+		} else {
+			JSONArray array = JSONArray.fromObject(maps);
+			out.print(array.toString());
+		}
 		out.flush();
 		out.close();
 	}

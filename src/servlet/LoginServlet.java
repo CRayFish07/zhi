@@ -99,11 +99,6 @@ public class LoginServlet extends HttpServlet {
 						out.print(path);
 					}
 				}
-				// if (base.updateImg(path, name) > 0) {
-				// reponse.getWriter().print(path);
-				// } else {
-				// reponse.getWriter().print("");
-				// }
 			}
 		}
 		out.flush();

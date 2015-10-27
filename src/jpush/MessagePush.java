@@ -13,8 +13,8 @@ import cn.jpush.api.push.model.notification.Notification;
 
 public class MessagePush {
 
-	private static final String appKey = "0f39b65fd3b5acc46c008eda";
-	private static final String masterSecret = "3d2f65a446ef13434ddb9c99";
+	private static final String appKey = "3fb25eba0cd54df421f73c20";
+	private static final String masterSecret = "d87cb166bae72c0639a4202c";
 	private JPushClient jpushClient;
 	private String title;
 	private String content;
